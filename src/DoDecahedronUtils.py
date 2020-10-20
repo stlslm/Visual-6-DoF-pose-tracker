@@ -23,7 +23,6 @@ from scipy.spatial import distance
 from matplotlib.path import Path
 
 import os
-# _R_cent_face = np.load(os.path.join(os.abspath(__file_),'Center_face_rotations.npy'))
 _R_cent_face = np.load('src/Center_face_rotations.npy')
 _T_cent_face = np.load('src/Center_face_translations.npy')
 frame_gray = np.zeros((100,100, 3), np.uint8)
